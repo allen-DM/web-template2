@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
 import 'antd/dist/antd.css';
 import './FirstPage.css';
@@ -54,24 +53,6 @@ const FirstPage = () => {
                 </Content>
             </Layout>
         </Layout>
-=======
-import React from 'react';
-
-const FirstPage=()=>{
-    const StyleSheet={
-        width:"100vw",
-        height:"100vh",
-        backgroundColor:"#FF2E63",
-        display: "flex",
-        alignItems:"center",
-        justifyContent:"center",
-        flexDirection:"column"
-    }
-    return(
-        <div style={StyleSheet}>
-            <h1 style={{color:"white",fontFamily:"Microsoft JhengHei"}}>我是第一頁</h1>
-        </div>
->>>>>>> parent of dc45c60... add bootstrap
     )
 }
 
